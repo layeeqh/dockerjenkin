@@ -1,4 +1,4 @@
-FROM nexus:latest
+FROM nginx:latest
 MAINTAINER layeeqhsmd99@gmail.com
 WORKDIR /usr/local/tomcat/webapps
-EXPOSE 8079
+EXPOSE 85
